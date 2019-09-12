@@ -1,2 +1,2 @@
-# Off-The-Cuff Remark (OCR)
-Improvised Optical Character Recognizer
+# OTHER
+OpTical cHaractEr Recognizer
