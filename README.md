@@ -1,2 +1,2 @@
 # OTHER
-OpTical cHaractEr Recognizer
+**O**p**T**ical c**H**aract**E**r **R**ecognizer
