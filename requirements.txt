@@ -1,5 +1,5 @@
 numpy
-tensorflow
+tensorflow==1.14
 tensorflow-hub
 opencv-python
 keras
