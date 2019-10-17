@@ -65,6 +65,17 @@ $ tensorboard --logdir <summary dir>
 
 ## Predicting new images
 
+Use the `label_image.py` script to load the trained model (`output_graph.pd`) and the labels (`output_labels.txt`) and predict new images:
+
+```
+python label_image.py --graph=<GRAPH> --labels=<LABELS> --input_layer=Placeholder --output_layer=final_result --input_height=224 --input_width=224 --image=<IMAGE>
+```
 
 
 ## Other options
+
+- `retrain.py`
+    `--output_graph <OUT_GRAPH>`: Specify output path for graph file
+    `--output_labels <OUT_LABELS>`: Specify output path for labels file
+    `--sumaries_dir <SUM_DIR>`: Specify output path for summary files
+    `--how_many_training_steps <TRAIN_STEPS>`: Specify the number of training steps to run
