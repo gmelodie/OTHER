@@ -70,3 +70,77 @@ I1016 23:21:11.932985 140334449268608 retrain.py:1125] 2019-10-16 23:21:11.93286
 
 ## Fnt database (from Chars74K)
 
+
+```
+INFO:tensorflow:Looking for images in 'Sample002'
+I1016 23:49:08.898670 140427307308928 retrain.py:182] Looking for images in 'Sample002'
+
+...
+
+INFO:tensorflow:Looking for images in 'Sample062'
+I1016 23:49:11.914384 140427307308928 retrain.py:182] Looking for images in 'Sample062'
+
+INFO:tensorflow:100 bottleneck files created.
+I1016 23:49:24.009598 140427307308928 retrain.py:475] 100 bottleneck files created.
+INFO:tensorflow:200 bottleneck files created.
+I1016 23:49:27.288650 140427307308928 retrain.py:475] 200 bottleneck files created.
+
+...
+
+
+INFO:tensorflow:300 bottleneck files created.
+I1016 23:49:30.566912 140427307308928 retrain.py:475] 300 bottleneck files created.
+INFO:tensorflow:400 bottleneck files created.
+I1016 23:49:33.849007 140427307308928 retrain.py:475] 400 bottleneck files created.
+INFO:tensorflow:500 bottleneck files created.
+I1016 23:49:37.117307 140427307308928 retrain.py:475] 500 bottleneck files created.
+INFO:tensorflow:600 bottleneck files created.
+I1016 23:49:40.379153 140427307308928 retrain.py:475] 600 bottleneck files created.
+
+...
+
+INFO:tensorflow:62500 bottleneck files created.
+I1017 00:23:40.885855 140427307308928 retrain.py:475] 62500 bottleneck files created.
+INFO:tensorflow:62600 bottleneck files created.
+I1017 00:23:44.223228 140427307308928 retrain.py:475] 62600 bottleneck files created.
+INFO:tensorflow:62700 bottleneck files created.
+I1017 00:23:47.539083 140427307308928 retrain.py:475] 62700 bottleneck files created.
+INFO:tensorflow:62800 bottleneck files created.
+I1017 00:23:50.845335 140427307308928 retrain.py:475] 62800 bottleneck files created.
+INFO:tensorflow:62900 bottleneck files created.
+I1017 00:23:54.156223 140427307308928 retrain.py:475] 62900 bottleneck files created.
+
+
+INFO:tensorflow:2019-10-17 00:24:00.377616: Step 0: Train accuracy = 17.0%
+I1017 00:24:00.377809 140427307308928 retrain.py:1104] 2019-10-17 00:24:00.377616: Step 0: Train accuracy = 17.0%
+INFO:tensorflow:2019-10-17 00:24:00.378094: Step 0: Cross entropy = 4.078134
+I1017 00:24:00.378112 140427307308928 retrain.py:1106] 2019-10-17 00:24:00.378094: Step 0: Cross entropy = 4.078134
+INFO:tensorflow:2019-10-17 00:24:00.987965: Step 0: Validation accuracy = 5.0% (N=100)
+I1017 00:24:00.988088 140427307308928 retrain.py:1125] 2019-10-17 00:24:00.987965: Step 0: Validation accuracy = 5.0% (N=100)
+INFO:tensorflow:2019-10-17 00:24:01.959435: Step 10: Train accuracy = 12.0%
+I1017 00:24:01.959598 140427307308928 retrain.py:1104] 2019-10-17 00:24:01.959435: Step 10: Train accuracy = 12.0%
+INFO:tensorflow:2019-10-17 00:24:01.959878: Step 10: Cross entropy = 4.015740
+I1017 00:24:01.959905 140427307308928 retrain.py:1106] 2019-10-17 00:24:01.959878: Step 10: Cross entropy = 4.015740
+INFO:tensorflow:2019-10-17 00:24:02.054008: Step 10: Validation accuracy = 10.0% (N=100)
+I1017 00:24:02.054112 140427307308928 retrain.py:1125] 2019-10-17 00:24:02.054008: Step 10: Validation accuracy = 10.0% (N=100)
+
+...
+
+INFO:tensorflow:2019-10-17 00:30:51.160553: Step 3980: Validation accuracy = 75.0% (N=100)
+I1017 00:30:51.160646 140427307308928 retrain.py:1125] 2019-10-17 00:30:51.160553: Step 3980: Validation accuracy = 75.0% (N=100)
+INFO:tensorflow:2019-10-17 00:30:52.110465: Step 3990: Train accuracy = 72.0%
+I1017 00:30:52.110589 140427307308928 retrain.py:1104] 2019-10-17 00:30:52.110465: Step 3990: Train accuracy = 72.0%
+INFO:tensorflow:2019-10-17 00:30:52.110868: Step 3990: Cross entropy = 1.184110
+I1017 00:30:52.110891 140427307308928 retrain.py:1106] 2019-10-17 00:30:52.110868: Step 3990: Cross entropy = 1.184110
+INFO:tensorflow:2019-10-17 00:30:52.204248: Step 3990: Validation accuracy = 77.0% (N=100)
+I1017 00:30:52.204367 140427307308928 retrain.py:1125] 2019-10-17 00:30:52.204248: Step 3990: Validation accuracy = 77.0% (N=100)
+INFO:tensorflow:2019-10-17 00:30:53.047242: Step 3999: Train accuracy = 78.0%
+I1017 00:30:53.047358 140427307308928 retrain.py:1104] 2019-10-17 00:30:53.047242: Step 3999: Train accuracy = 78.0%
+INFO:tensorflow:2019-10-17 00:30:53.047654: Step 3999: Cross entropy = 0.987354
+I1017 00:30:53.047678 140427307308928 retrain.py:1106] 2019-10-17 00:30:53.047654: Step 3999: Cross entropy = 0.987354
+INFO:tensorflow:2019-10-17 00:30:53.141763: Step 3999: Validation accuracy = 78.0% (N=100)
+I1017 00:30:53.141877 140427307308928 retrain.py:1125] 2019-10-17 00:30:53.141763: Step 3999: Validation accuracy = 78.0% (N=100)
+
+INFO:tensorflow:Final test accuracy = 73.5% (N=6375)
+I1017 00:31:05.747231 140427307308928 retrain.py:857] Final test accuracy = 73.5% (N=6375)
+```
