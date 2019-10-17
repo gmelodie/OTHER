@@ -60,7 +60,7 @@ The trained model will be available in `/tmp/output_graph.pd`, and the labels in
 The script automatically saves the logs of the retraining in `/tmp/retrain_logs`, you can change this with the `--summaries_dir` flag. To view the summaries, use `tensorboard`:
 
 ```
-$ tensorboard --logdir <summary dir>
+$ tensorboard --logdir <SUMMARY_DIR>
 ```
 
 ## Predicting new images
@@ -75,7 +75,7 @@ python label_image.py --graph=<GRAPH> --labels=<LABELS> --input_layer=Placeholde
 ## Other options
 
 - `retrain.py`
-    `--output_graph <OUT_GRAPH>`: Specify output path for graph file
-    `--output_labels <OUT_LABELS>`: Specify output path for labels file
-    `--sumaries_dir <SUM_DIR>`: Specify output path for summary files
-    `--how_many_training_steps <TRAIN_STEPS>`: Specify the number of training steps to run
+    - `--output_graph <OUT_GRAPH>`: Specify output path for graph file
+    - `--output_labels <OUT_LABELS>`: Specify output path for labels file
+    - `--sumaries_dir <SUM_DIR>`: Specify output path for summary files
+    - `--how_many_training_steps <TRAIN_STEPS>`: Specify the number of training steps to run
