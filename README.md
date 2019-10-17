@@ -55,6 +55,9 @@ $ python3 retrain.py --image_dir images
 The trained model will be available in `/tmp/output_graph.pd`, and the labels in `/tmp/output_labels.txt`.
 
 
+**Obs:** You may end up having some problems with tensorflow's versions and GPU configuration. If you do, I highly recommend using [Google Colab](https://colab.research.google.com/). It allows you to quickly run things and use GPUs as easily as pressing a button.
+
+
 ## Visualizing results
 
 The script automatically saves the logs of the retraining in `/tmp/retrain_logs`, you can change this with the `--summaries_dir` flag. To view the summaries, use `tensorboard`:
