@@ -10,6 +10,15 @@ Install dependencies:
 $ pip install -r requirements.txt
 ```
 
+If you want to use the Char74K dataset, you can download it using the `getdataset.sh` script:
+
+```
+./getdataset.sh
+```
+
+A folder `English` containing the dataset should appear.
+
+
 ## Training the model
 
 To retrain the pretrained model:
@@ -52,7 +61,7 @@ And we would call the program like so:
 $ python3 retrain.py --image_dir images
 ```
 
-The trained model will be available in `/tmp/output_graph.pd`, and the labels in `/tmp/output_labels.txt`.
+The trained model will be available in `/tmp/output_graph.pd`, and the labels in `/tmp/output_labels.txt`. You can change the output directories for the model and the labels by specifying `--output_graph` and `--output_labels`, respectively (more details on that below).
 
 
 **Obs:** You may end up having some problems with tensorflow's versions and GPU configuration. If you do, I highly recommend using [Google Colab](https://colab.research.google.com/). It allows you to quickly run things and use GPUs as easily as pressing a button.
